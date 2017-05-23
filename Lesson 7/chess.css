@@ -1,0 +1,39 @@
+ /* CSS Chess */
+ 
+body {
+	margin: 0 auto;
+	text-align:center;
+	font-family: Verdana;
+}
+
+table {
+    border: 1px solid #000;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+	margin: auto;
+}
+
+td {
+    border: 1px solid #000;
+    height: 50px;
+    width: 50px;
+}
+
+.blackcell {
+	background-color: #696969;
+    text-align: center;
+    font-size: 40px;
+	font-weight: bold;
+}
+
+.whitecell {
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+	font-weight: bold;
+}
+
+.marking {
+	font-weight: normal;
+}
