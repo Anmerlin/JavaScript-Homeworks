@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Урок 1: Вывод окна, работа с переменными, атрибуты тэга script (async и defer)</title>
+	<!-- Подключяем библиотеку и с помощью атрибута defer определяем, что скрипт сработет когда весь HTML-документ будет обработан браузером -->
+	<script src="jquery.js" defer></script>
+	<!-- C помощью атрибута async определяем, что как только скрипт будет загружен – он выполнится -->
+	<script src="script1.js" async></script>
+	<!-- C помощью атрибута defer определяем, что скрипт сработет когда весь HTML-документ будет обработан браузером и сработает jquery.js -->
+	<script src="script2.js" defer></script>
+</head>
+<body>
+	<p>Привет, Javascript!</p>
+</body>
+</html>
